@@ -1,0 +1,112 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.conteudoInt{
+	width: 700px;
+	height: 300px;
+	margin: auto;
+	margin-top: 10px;
+}
+.slideShow{
+	width: 700px;
+	height: 300px;
+	background-color: #CCC;
+	overflow: hidden;
+}
+.slideShowArea{
+	height: 300px;
+	transition: 1s;
+}
+.slide{
+	height: 300px;
+	float: left;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.slide1{
+	background-image: url('../img/menina_menino.jpg');
+}
+.slide2{
+	background-image: url('../img/menina_ostentacao.jpg');
+}
+.slide3{
+	background-image: url('../img/menina_praia.jpg');
+}
+.slide4{
+	background-image: url('../img/menina_tinta.jpg');
+}
+.slide5{
+	background-image: url('../img/menino_duvida.jpg');
+}
+.passar{
+	width: 60px;
+	height: 60px;
+	background-color: #000;
+	background: rgba(255,255,255, 0.3);
+	float: left;
+	position: absolute;
+	margin-top: 120px;
+
+	text-align: center;
+	line-height: 60px;
+	font-size: 60px;
+}
+.passar:hover{
+	background: rgba(255,255,255, 0.5);
+	cursor: pointer;
+}
+.proximo{
+	margin-left: 640px;
+}
+
+/* galeria */
+
+.conteudoGaleria{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	justify-content: space-between;
+}
+.galeria{
+	width: 200px;
+	height: 100px;
+}
+.galeriaArea{
+	height: 100px;
+	transition: 1s;
+}
+.foto{
+	width: 200px;
+	height: 100px;
+	float: left;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foto1{
+	background-image: url('../img/menina_menino.jpg');
+}
+.foto2{
+	background-image: url('../img/menina_ostentacao.jpg');
+}
+.foto3{
+	background-image: url('../img/menina_praia.jpg');
+}
+.foto4{
+	background-image: url('../img/menina_tinta.jpg');
+}
+.foto5{
+	background-image: url('../img/menino_duvida.jpg');
+}
+.lado{
+	width: 100%;
+	height: 100px;
+	background-color: #ccc;
+	
+}
